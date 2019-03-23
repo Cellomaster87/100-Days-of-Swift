@@ -38,6 +38,6 @@ As before, we call this `save()` method everywhere we reload our data.
 We then move to `viewDidLoad()`, create a call to our `UserDefaults.standard` path, optionally bind the optional downcast to `Data` result of the call of the `object(forKey:)` method on our “people” key and, if that succeeds—breath!…—we declare a new `JSONDecoder()` and set up a `do-catch` block to try to create an array of `Person` objects from the data extracted before. 
 This very last passage deserves a little clarification: the `object(forKey:)` method pulls out optional `Data` which gets unwrapped with `if let` and `as?`. The `JSONDecoder` then converts it back to an object graph—that is, our `[Person]`.
 ----
-That’s it! You can find the code for all the three versions of the project [here]. 
+That's it. You can find the project in my "Name to faces" repository. 
 Please let me know if something is amiss or suspiciously wrong.
 Please don’t forget to drop a hello and a thank you to _Paul_ for all his great work (you can find him on [www.twitter.com/twostraws]) and don’t forget to visit the _100 Days Of Swift_ initiative [www.hackingwithswift.com/100]. 
