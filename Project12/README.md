@@ -40,4 +40,4 @@ This very last passage deserves a little clarification: the `object(forKey:)` me
 ----
 That’s it! You can find the code for all the three versions of the project [here]. 
 Please let me know if something is amiss or suspiciously wrong.
-Please don’t forget to drop a hello and a thank you to _Paul_ for all his great work (you can find him on [Twitter]) and don’t forget to visit the _100 Days Of Swift_ initiative [page]. 
+Please don’t forget to drop a hello and a thank you to _Paul_ for all his great work (you can find him on [www.twitter.com/twostraws]) and don’t forget to visit the _100 Days Of Swift_ initiative [www.hackingwithswift.com/100]. 
